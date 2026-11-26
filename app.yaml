@@ -1,0 +1,7 @@
+name: Risk Classifier (SLM + Bridge)
+description: "Dengue risk classification using a local SLM via Bridge RPC and Flask"
+icon: 🦟
+version: "1.0.0"
+ports:
+   - 7000
+bricks: []

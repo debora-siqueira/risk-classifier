@@ -1,0 +1,11 @@
+profiles:
+  default:
+    fqbn: arduino:zephyr:uno_q
+    platforms:
+      - platform: arduino:zephyr
+    libraries:
+      - DHT sensor library (1.4.6)
+      - dependency: Adafruit Unified Sensor (1.1.14)
+      - dependency: Arduino_RPClite (0.2.1)
+
+default_profile: default
